@@ -25,7 +25,9 @@ int main(){
     //それぞれの点数と平均値との差を算出し出力
     int ans;
     for(int i = 0; i < N; i++){
+        //点数と平均の差分を計算
         ans = vec.at(i) - ave;
+        //abs()は絶対値を求める関数
         cout << abs(ans) << endl;
     }
 }
